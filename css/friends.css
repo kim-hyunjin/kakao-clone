@@ -1,0 +1,21 @@
+.friends__header .friend__name {
+  font-size: 20px;
+}
+
+.friends .friends__plus {
+  margin: 15px 0px;
+  padding: 15px 0px;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+}
+
+.friends__plus .friends__plus-title,
+.friends__list .friends__title {
+  forn-size: 12px;
+  opacity: 0.6;
+  margin-bottom: 15px;
+}
+
+.friends__list li {
+  margin-bottom: 15px;
+}
