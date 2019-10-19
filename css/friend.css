@@ -5,13 +5,13 @@
 }
 
 .friend .friend__avatar {
-  width: 50px;
-  border-radius: 35%;
+  width: 40px;
+  border-radius: 37%;
   margin-right: 12px;
 }
 
 .friend__avatar.big-avatar {
-  width: 70px;
+  width: 52px;
 }
 
 .friend .friend__column {
@@ -32,7 +32,7 @@
 .friend__content .friend__status,
 .friend__content .friend__bottom-text,
 .friend__column .chat__timestamp {
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .friend__content .friend__bottom-text {

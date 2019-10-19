@@ -9,10 +9,15 @@
   border-bottom: 1px solid #f7f7f7;
 }
 
+.friends .friends__plus-number {
+  font-size: 90%;
+  opacity: 0.5;
+}
+
 .friends__plus .friends__plus-title,
 .friends__list .friends__title {
-  forn-size: 12px;
-  opacity: 0.6;
+  font-size: 12px;
+  opacity: 0.5;
   margin-bottom: 15px;
 }
 
