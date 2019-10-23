@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Chat | KaKao Clone</title>
   </head>
-  <body>
+  <body class="chat-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">06:52</span>
@@ -43,20 +43,22 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">Thursday, October 10, 2019</span>
         <li class="incoming-message message">
-          <img src="image/ryan.jpg" class="message__avatar" />
+          <div class="message__avatar">
+            <img src="image/ryan.jpg" class="message__avatar" />
+          </div>
           <div class="message__content">
-            <span class="message__author">라이언</span>
+            <span class="message__author">Ryan</span>
             <div class="message__bubble">
               Hello
             </div>
           </div>
           <span class="message__timestamp"> </span>
         </li>
-        <li class="outgoing-message message">
+        <li class="sent-message message">
           <span class="message__timestamp"> </span>
           <div class="message__content">
             <div class="message__bubble">
@@ -78,8 +80,10 @@
         />
       </div>
       <div class="chat__write-column">
-        <span class="chat__write-icon"> <i class="far fa-smile-wink"></i> </span
-        ><span class="chat__write-icon">
+        <span class="chat__write-icon">
+          <i class="far fa-smile-wink"></i>
+        </span>
+        <span class="chat__write-icon">
           <i class="fas fa-microphone"></i>
         </span>
       </div>
