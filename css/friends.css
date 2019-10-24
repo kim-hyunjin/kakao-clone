@@ -9,6 +9,10 @@
   border-bottom: 1px solid #f7f7f7;
 }
 
+.friends__plus .friend__avatar {
+  opacity: 0.8;
+}
+
 .friends .friends__plus-number {
   font-size: 90%;
   opacity: 0.5;
